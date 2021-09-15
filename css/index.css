@@ -5,6 +5,12 @@ body {
 #miaNavbar{
     background-color: rgb(255, 255, 255, 0.3) !important;
 }
+
+#offcanvasNavbar {
+    background-image: url('../images/colosseo.jpg');
+    background-size: cover;
+}
+
 #carouselExampleFade img {
     height: 100vh;
     vertical-align:top;
