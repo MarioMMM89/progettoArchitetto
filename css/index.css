@@ -1,9 +1,9 @@
 body {
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 #miaNavbar{
-    background-color: rgb(255, 255, 255, 0.3) !important;
+    background-color: transparent !important;
 }
 
 #offcanvasNavbar {
@@ -11,10 +11,26 @@ body {
     background-size: cover;
 }
 
+#citazione{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 5;
+    top: 120px;
+    left: 20px;
+}
+
+#citazione p {
+    font-size: 0.5rem;
+    margin-right: 10px;
+    align-self: flex-end;
+}
+
 #carouselExampleFade img {
     height: 100vh;
     vertical-align:top;
     object-fit: cover;
+    position: relative;
 }
 
 #similFooter {
@@ -22,9 +38,23 @@ body {
     /*background-color: rgb(255, 255, 255, 0.4);*/
     padding-top: 15px;
     padding-bottom: 10px;
-    margin-top: -220px;
     margin-left: 15px
     padding left 15px;
-    position: relative;
+    position: absolute;
     z-index: 5;
+    animation: 1s ease-in enter;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes enter {
+    from {
+        bottom: -250px;
+        opacity: 0;
+    }
+    to {
+        bottom: 0px;
+        opacity: 1;
+    }
 }
