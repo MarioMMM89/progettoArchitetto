@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#miaNavbar{
+    background-color: transparent !important;
+}
+
+#offcanvasNavbar {
+    background-image: url('../images/colosseo.jpg');
+    background-size: cover;
+}
+
+#spacer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    height: 40vh;
+}
+
+#spacer img {
+    opacity: 0.15;
+}
+
+#similFooter {
+    background: linear-gradient(45deg, rgb(255, 255, 255, 1), rgb(255, 255, 255, 0));
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 25px;
+}
