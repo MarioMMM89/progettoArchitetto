@@ -48,7 +48,7 @@ body {
     position: absolute;
     z-index: 5;
     animation: 6s ease-in enter;
-    animation-delay: 1s;
+    animation-delay: 1.7s;
     animation-fill-mode: forwards;
 }
 
