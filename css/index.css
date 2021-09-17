@@ -20,8 +20,8 @@ body {
     top: 120px;
     left: 30px;
     opacity: 0;
-    animation: 1.2s linear citazioneFade;
-    animation-delay: 3s;
+    animation: 2s linear citazioneFade;
+    animation-delay: 0.2s;
     animation-fill-mode: forwards;
 }
 
@@ -47,22 +47,22 @@ body {
     padding left 15px;
     position: absolute;
     z-index: 5;
-    animation: 3s ease-in enter;
-    animation-delay: 0.2s;
+    animation: 4s ease-in enter;
+    animation-delay: 1s;
     animation-fill-mode: forwards;
 }
 
 /********************************** ANIMATIONS ***********************************************/
 @keyframes enter {
     from {
-        bottom: -25px;
-        opacity: 0.2;
+        bottom: 50px;
+        opacity: 0;
     }
-    25% {
+    25%{
         bottom: 0px;
-        opacity: 0.8;
+        opacity: 0.6;
     }
-    50% {
+    75% {
         bottom: 0px;
         opacity: 1;
     }
