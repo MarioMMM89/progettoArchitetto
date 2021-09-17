@@ -47,7 +47,7 @@ body {
     padding left 15px;
     position: absolute;
     z-index: 5;
-    animation: 4s ease-in enter;
+    animation: 6s ease-in enter;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
@@ -56,11 +56,15 @@ body {
 @keyframes enter {
     from {
         bottom: 50px;
-        opacity: 0;
+        opacity: 0.1;
     }
     25%{
         bottom: 0px;
-        opacity: 0.6;
+        opacity: 0.3;
+    }
+    50%{
+        bottom: 0px;
+        opacity: 0.8;
     }
     75% {
         bottom: 0px;
