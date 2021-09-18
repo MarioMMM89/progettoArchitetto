@@ -20,7 +20,7 @@ body {
     top: 120px;
     left: 30px;
     opacity: 0;
-    animation: 2s linear citazioneFade;
+    animation: 1.5s linear citazioneFade;
     animation-delay: 0.2s;
     animation-fill-mode: forwards;
 }
@@ -50,8 +50,8 @@ body {
     padding-bottom: 10px;
     position: absolute;
     z-index: 5;
-    animation: 4s ease-in enter;
-    animation-delay: 2.4s;
+    animation: 3s ease-in enter;
+    animation-delay: 1.4s;
     animation-fill-mode: forwards;
 }
 
