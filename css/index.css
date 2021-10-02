@@ -7,14 +7,14 @@ body {
 }
 
 #offcanvasNavbar {
-    background-image: url('../images/bl2-min.jpg');
+    background-image: url('../images/bl2new.jpg');
     background-size: cover;
     background-position: center;
     box-shadow: 0 0 10px black;
 }
 
 .offcanvas-backdrop.show {
-    opacity: 0.2;
+    opacity: 0;
 }
 
 .offcanvas-body {
