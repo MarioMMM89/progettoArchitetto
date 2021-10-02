@@ -1,16 +1,79 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
-h1 {
-    text-align: center;
-}
+/******************* NAV**************************/
 #miaNavbar{
     background-color: transparent !important;
 }
 
 #offcanvasNavbar {
-    background-image: url('../images/colosseo.jpg');
+    background-image: url('../images/bl2new.jpg');
     background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 10px black;
+}
+
+.offcanvas-backdrop.show {
+    opacity: 0;
+}
+
+.offcanvas-body {
+    display:flex;
+}
+
+.offcanvas-title{
+    color: rgb(255, 255, 255, 0.1);
+    text-shadow: 0 0 2px white;
+}
+
+/******************* FOOTER ******************/
+
+#footer {
+    background: linear-gradient(45deg, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.8));
+    color: rgb(255, 255, 255, 0.6);
+    text-shadow: 0 0 4px black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.6);
+    transition: color .5s;
+}
+
+#footer img {
+    opacity: 0.6;
+    padding-right: 5px;
+}
+.contacts{
+    display: block;
+    margin: 15px 0;
+}
+.contacts img {
+    
+    width: 30px;
+}
+.social {
+    padding-bottom: 15px;
+    margin-right:50px;
+    width:40px;
+    transition: opacity .5s;
+}
+
+.social:hover {
+    opacity:1 !important;
+}
+
+#footer a:hover{
+    color: rgb(255, 255, 255, 1);
+}
+
+/**********************************************/
+
+h1 {
+    text-align: center;
 }
 
 #banner{
