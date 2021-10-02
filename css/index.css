@@ -5,6 +5,9 @@ body {
 #miaNavbar{
     background-color: transparent !important;
 }
+.navbar-toggler{
+    background-color: rgb(255,255,255,0.3);
+}
 
 #offcanvasNavbar {
     background-image: url('../images/bl2new.jpg');
@@ -45,7 +48,7 @@ body {
 #footer {
     opacity: 0;
     background: linear-gradient(45deg, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0));
-    color: rgb(255, 255, 255, 0.6);
+    color: rgb(255, 255, 255, 0.9);
     text-shadow: 0 0 4px black;
     padding-top: 10px;
     padding-bottom: 10px;
