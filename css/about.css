@@ -45,32 +45,9 @@ h1 {
     height: 65vh;
     background-image: url('../images/studio2.jpg');
     background-size: cover;
-    background-position: center; 
-}
-
-#presentation{
-    position: relative;
-    z-index: 5;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: -10vh;
-    width: 60%;
-    height: 40vh;
-    background-color: white;
-    box-shadow: 0 0 10px black;
-    border-radius: 35px;
-    overflow: hidden;
-    opacity: 0;
-	animation: 2s linear slideUpPresentation;
-    animation-fill-mode: forwards;
-}
-
-#presentation p {
-    margin: 5px 5%;
-    font-size: 1.5rem;
-    text-align: center;
+    background-position: center;
+    -webkit-clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
+    clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 }
 
 #description {
@@ -124,13 +101,3 @@ h1 {
 
 
 /*************ANIMATIONS******************/
-@keyframes slideUpPresentation{
-	from{
-		margin-top: 0;
-        opacity: 0;
-	}
-	to{
-		margin-top: -10vh;
-        opacity: 1;
-	}
-}
