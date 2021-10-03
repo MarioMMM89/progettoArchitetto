@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(135deg,white 15%, black 30%, white);
+    background: linear-gradient(135deg, white 5%, rgb(153, 214, 255), white);
 }
 /***************NAVBAR********************/
 .navbar {
@@ -38,7 +38,7 @@ body {
 /**************PROJECTS**********************/
 h3 {
     margin-top: 200px;
-    margin-left:50px;
+    text-align: center;
 }
 .col {
     margin-bottom: 15px;
