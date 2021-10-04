@@ -51,7 +51,18 @@ body {
 }
 .col {
     margin-bottom: 15px;
+    border-radius:30px;
+    position: relative;
 }
+.container-lg img{
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    transition: 0.2s linear transform;
+}
+.container-lg img:hover{
+    transform: scale(1.02);
+}
+
 
 
 /******************* FOOTER ******************/
