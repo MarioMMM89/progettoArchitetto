@@ -66,7 +66,7 @@ body {
     animation: 1.5s linear presentazione-sx;
 }
 #presentazione-sx h5 {
-    margin: 30px 8px 1px 5px;
+    margin: 30px 8px 1px 10px;
 }
 
 #presentazione-dx {
@@ -82,6 +82,8 @@ body {
     position: relative;
     animation: 1.5s linear presentazione-dx;
 }
+/*********************************************/
+
 
 .description {
     width: 100%;
@@ -93,6 +95,7 @@ body {
 
 .description p {
     margin: 10% 10px;
+    padding-top: 10vh;
     padding-bottom: 18vh;
 }
 
@@ -104,14 +107,38 @@ body {
     width: 100%;
     font-size: 1.1rem;
     background: linear-gradient(to top, rgb(0,0,0,0.3) 1%, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
 .description-3D img{
-    margin-top: -10%;
+    width: 100%;
 }
 .description-3D p {
-    margin: 10% 10px;
-    padding-bottom: 18vh;
+    margin: 10% 10%;
+    padding-bottom: 2vh;
 }
+/*****************************************/
+#team h1 {
+    text-align: center;
+    margin: 35px 0 15px 0;
+}
+.container-lavoratore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-lavoratore img {
+    border-radius: 15px;
+    width: 100%;
+}
+.container-lavoratore p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+
 
 /******************* FOOTER ******************/
 #footer {
