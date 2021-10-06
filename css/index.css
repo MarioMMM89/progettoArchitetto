@@ -111,7 +111,7 @@ body {
         opacity: 1;
     }
     to {
-        bottom: -60vh;
+        bottom: -100%;
         opacity: 1;
     }
 }
