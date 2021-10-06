@@ -77,7 +77,7 @@ body {
 
 .overlay > * {
     transform: translateY(30px);
-    transition: transform 0.8s;
+    transition: transform 0.6s;
 }
 
 .overlay:hover > * {
