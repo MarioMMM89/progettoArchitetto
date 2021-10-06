@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    -->
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="progetto1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <title>PROGETTO 1</title>
+  </head>
+<body>
+<!-------------------------------  NAVBAR  -------------------------------------->
+    <nav id="miaNavbar" class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="../images/Logo ADA-bianco.svg" width="140" class="me-3"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <img src="../images/icons/menu.svg">
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">STUDIO ADA</h5>
+              <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="projects.html">PROGETTI</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">STUDIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacts.html">CONTATTI</a>
+                </li>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+<!-------------------------------  CAROUSEL  -------------------------------------->
+<div class="container-lg p-0">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+        </button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/land5.jpg" class="d-block w-100" alt="not found">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/land2.jpg" class="d-block w-100" alt="not found">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/land3.jpg" class="d-block w-100" alt="not found">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!------------------------------- FOOTER   --------------------------------------------->
+<div id="footer" class="container-fluid">
+    <h2>Studio di Architettura ADA</h2>
+    <h4>Architetto Alessio De Acetis</h4>
+    <a class="contacts" href="https://goo.gl/maps/tKF3xkt3KVui4APU7"><img src="../images/icons/IconMap.svg">Piazzale dello sport, 6, 00040, Marino(RM)</a>
+    <a class="contacts" href="tel:0688653454"><img src="../images/icons/IconCall.svg">0688653454</a>
+    <a class="contacts" href="tel:3470730661"><img src="../images/icons/IconPhone.svg">3470730661</a>
+    <a class="contacts" href="mailto:Alessiodeacetis@libero.it"><img src="../images/icons/IconEmail.svg">Alessiodeacetis@libero.it</a>
+    <a href="#"><img class="social" src="../images/icons/instagram.png"></a>
+    <a href="#"><img class="social" src="../images/icons/facebook.png"></a>
+    <a href="#"><img class="social" src="../images/icons/youtube.png"></a>
+    <a href="https://wa.me/393470730661"><img class="social" src="../images/icons/whatsapp.png"></a>
+</div>
+
+    <script src="../bootstrap/js/bootstrap.bundle.js"></script>
+
+  </body>
+</html>
