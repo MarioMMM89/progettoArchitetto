@@ -39,6 +39,16 @@ body {
     width: 100%;
 }
 
+.scrolling{
+    transform: translateX(-30px);
+}
+
+.scrolled {
+    opacity: 1 !important;
+    transition: 1.5s opacity, 1.5s transform;
+    transform: translateX(0);
+}
+
 /******************* FOOTER ******************/
 #footer {
     background: linear-gradient(45deg, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0.8));
