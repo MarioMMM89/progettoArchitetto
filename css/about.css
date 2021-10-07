@@ -95,12 +95,12 @@ body {
 }
 
 .scrolling{
-    transform: translateY(-50px);
+    transform: translateY(-70px);
 }
 
 .scrolled {
     opacity: 1 !important;
-    transition: 2s opacity, 2s transform;
+    transition: 1.5s opacity, 1.5s transform;
     transform: translateY(0);
 }
 

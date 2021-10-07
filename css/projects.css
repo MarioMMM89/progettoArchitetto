@@ -86,6 +86,16 @@ body {
     opacity: 1;
 }
 
+.scrolling{
+    transform: translateY(-50px);
+}
+
+.scrolled {
+    opacity: 1 !important;
+    transition: 1.5s opacity, 1.5s transform;
+    transform: translateY(0);
+}
+
 
 /******************* FOOTER ******************/
 #footer {
