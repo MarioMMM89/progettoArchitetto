@@ -94,6 +94,16 @@ body {
     clip-path: polygon(100% 0, 100% 85%, 50% 100%, 0 85%, 0 0);
 }
 
+.scrolling{
+    transform: translateY(-50px);
+}
+
+.scrolled {
+    opacity: 1 !important;
+    transition: 2s opacity, 2s transform;
+    transform: translateY(0);
+}
+
 .description p {
     margin: 10% 10px;
     padding-top: 10vh;
@@ -101,7 +111,7 @@ body {
 }
 
 .description p:last-child{
-    padding-bottom: 25vh;
+    padding-bottom: 30vh;
 }
 
 .description-3D {
