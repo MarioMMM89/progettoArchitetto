@@ -71,6 +71,7 @@ body {
 
 #presentazione-dx {
     display: inline-block;
+    background: black;
     background-image: url('../images/studio2.jpg');
     background-size: cover;
     background-position: center;

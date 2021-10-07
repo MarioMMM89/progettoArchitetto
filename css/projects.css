@@ -51,10 +51,8 @@ body {
 }
 .col {
     margin-bottom: 15px;
-    border-radius:30px;
 }
 .container-lg img{
-    border-radius: 15px;
     box-shadow: 0 0 5px black;
 }
 .container-progetti{
@@ -62,7 +60,6 @@ body {
 }
 .overlay{
     opacity: 0;
-    border-radius: 15px;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -78,6 +75,7 @@ body {
 .overlay > * {
     transform: translateY(30px);
     transition: transform 0.6s;
+    margin-bottom: 15px;
 }
 
 .overlay:hover > * {
